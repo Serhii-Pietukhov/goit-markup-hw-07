@@ -4,7 +4,6 @@
   --heading-color: #212121;
   --footer-color: #2f303a;
   --primary-white: #ffffff;
-  --main-backgroung-color: #ffffff;
   --header-color: #ececec;
   --secondary-background-colour: #f5f4fa;
   --hero-background: #2f303a;
@@ -16,7 +15,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  background-color: var(--main-backgroung-color);
+  background-color: var(--primary-white);
   letter-spacing: 0.03em;
   font-style: normal;
 }
@@ -85,21 +84,14 @@ ul {
 
 /* ХЭДЕР */
 .header {
-  background-color: var(--main-backgroung-color);
+  background-color: var(--primary-white);
   border-bottom: 1px solid var(--header-color);
 }
 
 .logo-header {
   margin-left: 0px;
 }
-.nav {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
-  display: flex;
-  margin-left: 93px;
-}
+
 .header .contacts {
   display: flex;
   margin-left: auto;
@@ -111,7 +103,14 @@ ul {
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
-
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
 .nav-link {
   position: relative;
   display: block;
@@ -424,7 +423,7 @@ h3 {
   padding-top: 50px;
 }
 .team-item {
-  background-color: var(--main-backgroung-color);
+  background-color: var(--primary-white);
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

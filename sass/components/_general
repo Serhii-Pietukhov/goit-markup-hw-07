@@ -57,5 +57,5 @@ ul {
 }
 h2,
 h3 {
-  color: %heading-color;
+  color: $heading-color;
 }

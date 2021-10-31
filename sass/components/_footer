@@ -1,5 +1,0 @@
-.footer {
-  background-color: $footer-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}

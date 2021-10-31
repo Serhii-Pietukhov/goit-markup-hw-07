@@ -4,14 +4,14 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: $accent-color;
+  color: var(--accent-color);
 }
 
 .logo2 {
-  .logo-header {
+  .logo-header & {
     color: #000000;
   }
-  .logo-footer {
-    color: $primary-white;
+  .logo-footer & {
+    color: var(--primary-white);
   }
 }

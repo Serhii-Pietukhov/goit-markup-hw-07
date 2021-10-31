@@ -1,0 +1,70 @@
+.section-team {
+  background-color: var(--secondary-background-colour);
+}
+.team-list {
+  display: inline-flex;
+  padding-top: 50px;
+}
+.team-item {
+  background-color: var(--primary-white);
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.team-names {
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+.team-names,
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-position {
+  padding-top: 10px;
+  color: var(--text-color);
+}
+
+.social-icons__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--border-clients-color);
+  transition: fill $transition;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.social-icons__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color $transition;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  &:hover .team-svg,
+  &:focus .team-svg {
+    fill: var(--primary-white);
+  }
+}

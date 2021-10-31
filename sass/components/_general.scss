@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  background-color: %primary-white;
+  background-color: var(--primary-white);
   letter-spacing: 0.03em;
   font-style: normal;
 }
@@ -57,5 +57,5 @@ ul {
 }
 h2,
 h3 {
-  color: $heading-color;
+  color: var(--heading-color);
 }

@@ -1,20 +1,20 @@
-.adv-list {
+.adv__list {
   display: inline-flex;
 }
 
-.adv-description {
+.adv__description {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.adv-text {
+.adv__text {
   color: var(--text-color);
   line-height: 1.71;
 }
 
-.adv-item:not(:last-child) {
+.adv__item:not(:last-child) {
   margin-right: 30px;
 }
 .benefits-icon {

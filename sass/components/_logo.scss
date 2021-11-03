@@ -1,5 +1,5 @@
-.logo-header,
-.logo-footer {
+.header__logo,
+.footer__logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -8,10 +8,10 @@
 }
 
 .logo2 {
-  .logo-header & {
+  .header__logo & {
     color: #000000;
   }
-  .logo-footer & {
+  .footer__logo & {
     color: var(--primary-white);
   }
 }

@@ -1,15 +1,15 @@
-/* ПОРТФОЛИО КНОПКИ */
-.filter-button {
-  margin-right: 9px;
-  margin-bottom: 50px;
-  &:last-child {
-    margin-right: 0;
-  }
-}
 .filter {
   display: flex;
   justify-content: center;
-  .button {
+  &__item {
+    margin-right: 9px;
+    margin-bottom: 50px;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__button {
     background-color: var(--secondary-background-colour);
     color: var(--heading-color);
     font-family: inherit;
@@ -60,7 +60,7 @@
   margin-left: -30px;
 }
 
-.portfolio-item {
+.portfolio__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -72,19 +72,19 @@
   }
 }
 
-.portfolio-link {
+.portfolio__link {
   list-style: none;
   &:hover .overlay {
     transform: translateY(-100%);
   }
 }
 
-.portfolio-image {
+.portfolio__image {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-heading {
+.portfolio__heading {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -96,7 +96,7 @@
   border-right: 1px solid var(--border-color);
 }
 
-.portfolio-description {
+.portfolio__description {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
